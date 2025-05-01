@@ -1,9 +1,14 @@
-import React from 'react'
+import { Header } from "components";
 
 const AllUsers = () => {
   return (
-    <div>Users Table</div>
-  )
-}
+    <main className="dashboard wrapper">
+      <Header
+        title={`Trips Page`}
+        description="Check out our currrent users in real time."
+      />
+    </main>
+  );
+};
 
-export default AllUsers
+export default AllUsers;
